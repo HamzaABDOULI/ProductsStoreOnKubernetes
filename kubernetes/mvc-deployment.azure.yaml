@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: mvc
-  replicas: 3
+  replicas: 1
   template:
     metadata:
       labels:
@@ -22,11 +22,11 @@ spec:
         - containerPort: 80
         resources:
           limits:
-            cpu: 300m
+            cpu: "1"
             memory: "100Mi"
           requests:
             cpu: 100m
-            memory: "50Mi"
+            memory: "1"
         env:
           - name: ConnectionStrings__ProductsContext
             valueFrom:

@@ -27,7 +27,7 @@ env:
   AKS_NAME: aks-102
   ACR_NAME: acrforaks102
   SQL_INSTANCE_NAME: sqlforaks102
-  DB_ADMIN_LOGIN: houssem
+  DB_ADMIN_LOGIN: hamza
   DB_ADMIN_PASSWORD: "@Aa123456"
   STORAGE_NAME: storageforaks102
     

@@ -27,7 +27,7 @@ variable db_name {
 }
 
 variable db_admin_login {
-  default = "houssem"
+  default = "hamza"
 }
 
 variable db_admin_password {

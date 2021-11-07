@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: mvc-app
-        image: houssemdocker/products-store-mvc:v1.1
+        image: hamzaabdouli/products-store-mvc:v1.1
         ports:
         - containerPort: 80

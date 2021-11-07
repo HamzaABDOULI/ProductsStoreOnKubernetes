@@ -1,5 +1,5 @@
 # Documentation for working with Prometheus and Grafana
-# Adedicated tutorial was created on this repo: https://github.com/HoussemDellai/WebAppMonitoring/blob/master/commands.sh
+# Adedicated tutorial was created on this repo: https://github.com/hamzaDellai/WebAppMonitoring/blob/master/commands.sh
 
 $ mkdir WebApp
 $ dotnet new mvc
@@ -13,9 +13,9 @@ $ dotnet run
 # Open the web app on https://localhost:5001/metrics
 
 # Create a docker container
-$ docker build -t houssemdocker/webappmonitoring:prometheus .
-$ docker run -d -p 5555:80/tcp houssemdocker/webappmonitoring:prometheus
-$ docker push houssemdocker/webappmonitoring:prometheus
+$ docker build -t hamzaabdouli/webappmonitoring:prometheus .
+$ docker run -d -p 5555:80/tcp hamzaabdouli/webappmonitoring:prometheus
+$ docker push hamzaabdouli/webappmonitoring:prometheus
 
 # deploy the container into Kubernetes
 $ kubectl apply -f web-deploy-svc.yaml

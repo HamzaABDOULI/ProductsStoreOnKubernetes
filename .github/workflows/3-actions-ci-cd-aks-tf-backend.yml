@@ -15,7 +15,7 @@ env:
   TF_STATE_ACCESS_KEY: "" # will be set later
     
   DOCKER_REPOSITORY: acrforaks102.azurecr.io
-  # DOCKER_REPOSITORY: houssemdocker
+  # DOCKER_REPOSITORY: hamzaabdouli
   IMAGE_NAME: webapp
   IMAGE_TAG: ${{ github.run_number }}
   
@@ -28,7 +28,7 @@ env:
   AKS_NAME: aks-102
   ACR_NAME: acrforaks102
   SQL_INSTANCE_NAME: sqlforaks102
-  DB_ADMIN_LOGIN: houssem
+  DB_ADMIN_LOGIN: hamza
   DB_ADMIN_PASSWORD: "@Aa123456"
   STORAGE_NAME: storageforaks102
     

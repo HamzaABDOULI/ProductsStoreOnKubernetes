@@ -9,5 +9,5 @@ roleRef:
 subjects:
 - apiGroup: rbac.authorization.k8s.io
   kind: User
-  name: "Houssem Dellai" #"houssem.dellai@soat.fr"
-  # name: "houssemdellai@outlook.com"
+  name: "hamza Dellai" #"hamza.dellai@soat.fr"
+  # name: "hamzadellai@outlook.com"

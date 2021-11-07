@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      DOCKER_REPOSITORY: houssemdocker
+      DOCKER_REPOSITORY: hamzaabdouli
       IMAGE_NAME: web-app-github
       IMAGE_TAG: $GITHUB_RUN_NUMBER # ${{ github.sha }}
       AKS_RESOURCE_GROUP:  resourcegroup-aks-k8s-github-2020
@@ -50,7 +50,7 @@ jobs:
         AKS_NAME: $AKS_NAME
         ACR_NAME: $ACR_NAME
         SQL_INSTANCE_NAME: sqlforaks-github-2020
-        DB_ADMIN_LOGIN: houssem
+        DB_ADMIN_LOGIN: hamza
         DB_ADMIN_PASSWORD: "@Aa123456"
         STORAGE_NAME: storageforsqlgithub2020
     

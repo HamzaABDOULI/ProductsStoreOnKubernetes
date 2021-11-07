@@ -5,7 +5,7 @@ metadata:
   namespace: office
 subjects:
 - kind: User
-  name: houssem
+  name: hamza
   apiGroup: ""
 roleRef:
   kind: Role
